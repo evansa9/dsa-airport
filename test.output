@@ -1,0 +1,523 @@
+Welcome to the airport program.
+Enter number of runways: 4
+Enter the name of runway number 1: North
+Enter the name of runway number 2: South
+Enter the name of runway number 3: East
+Enter the name of runway number 4: West
+Select from the following menu:
+	0. Exit the program.
+	1. Plane enters the system.
+	2. Plane takes off.
+	3. Plane is allowed to re-enter a runway.
+	4. Runway opens.
+	5. Runway closes.
+	6. Display info about planes waiting to take off.
+	7. Display info about planes waiting to be allowed to re-enter a runway.
+	8. Display number of planes who have taken off.
+
+Make you menu selection now: 2
+No plane on any runway.
+
+Make you menu selection now: 3
+There are no planes waiting for clearance.
+
+Make you menu selection now: 6
+No planes are waiting to takeoff on runway North!
+No planes are waiting to takeoff on runway South!
+No planes are waiting to takeoff on runway East!
+No planes are waiting to takeoff on runway West!
+
+Make you menu selection now: 7
+There are no planes waiting to be cleared to re-enter a runway!
+
+Make you menu selection now: 8
+0 planes have taken off from the airport.
+
+Make you menu selection now: 1
+Enter a flight number: Frontier1243
+Enter destination: Nashville
+Enter runway: North
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight Frontier1243 to Nashville.
+
+No planes are waiting to takeoff on runway South!
+No planes are waiting to takeoff on runway East!
+No planes are waiting to takeoff on runway West!
+
+Make you menu selection now: 1
+Enter a flight number: Delta2
+Enter destination: London
+Enter runway: NorthEast
+No such runway.
+Enter runway: 
+
+Make you menu selection now: 1
+Enter a flight number: HawaiianAirlines35
+Enter destination: San Francisco
+Enter runway: East
+
+Make you menu selection now: 1
+Enter a flight number: Southwest102
+Enter destination: Denver
+Enter runway: West
+
+Make you menu selection now: 1
+Enter a flight number: Copa1009
+Enter destination: Los Angeles
+Enter runway: South
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight Frontier1243 to Nashville.
+
+These planes are waiting for takeoff on runway South :
+Flight Copa1009 to Los Angeles.
+
+These planes are waiting for takeoff on runway East :
+Flight Delta2 to London.
+Flight HawaiianAirlines35 to San Francisco.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+
+
+Make you menu selection now: 2
+Is flight Frontier1243 cleared for takeoff? (Y/N): Y
+Flight Frontier1243 has taken off from runway North.
+
+Make you menu selection now: 8
+1 planes have taken off from the airport.
+
+Make you menu selection now: 6
+No planes are waiting to takeoff on runway North!
+These planes are waiting for takeoff on runway South :
+Flight Copa1009 to Los Angeles.
+
+These planes are waiting for takeoff on runway East :
+Flight Delta2 to London.
+Flight HawaiianAirlines35 to San Francisco.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+
+
+Make you menu selection now: 2
+Is flight Copa1009 cleared for takeoff? (Y/N): Y
+Flight Copa1009 has taken off from runway South.
+
+Make you menu selection now: 6
+No planes are waiting to takeoff on runway North!
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight Delta2 to London.
+Flight HawaiianAirlines35 to San Francisco.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+
+
+Make you menu selection now: 2
+Is flight Delta2 cleared for takeoff? (Y/N): N
+Flight Delta2 is now waiting to be allowed to re-enter a runway.
+
+Make you menu selection now: 6
+No planes are waiting to takeoff on runway North!
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight HawaiianAirlines35 to San Francisco.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Delta2 to London.
+
+
+Make you menu selection now: 8
+2 planes have taken off from the airport.
+
+Make you menu selection now: 1
+Enter a flight number: AirCanada4845
+Enter destination: Cincinnati
+Enter runway: North
+
+Make you menu selection now: 1
+Enter a flight number: JetBlue706
+Enter destination: Miami
+Enter runway: North
+
+Make you menu selection now: 1
+Enter a flight number: United1814
+Enter destination: Montreal
+Enter runway: North
+
+Make you menu selection now: 1
+Enter a flight number: Frontier1260
+Enter destination: Santiago
+Enter runway: South
+
+Make you menu selection now: 1
+Enter a flight number: AeroMexico3732
+Enter destination: Detroit
+Enter runway: West
+
+Make you menu selection now: 1
+Enter a flight number: AirFrance5953
+Enter destination: Columbus
+Enter runway: West
+
+Make you menu selection now: 1
+Enter a flight number: United3993
+Enter destination: Nashville
+Enter runway: East
+
+Make you menu selection now: 1
+Enter a flight number: American2794
+Enter destination: Charlotte
+Enter runway: East
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Delta2 to London.
+
+
+Make you menu selection now: 8
+2 planes have taken off from the airport.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight AirCanada4845 to Cincinnati.
+Flight JetBlue706 to Miami.
+Flight United1814 to Montreal.
+
+These planes are waiting for takeoff on runway South :
+Flight Frontier1260 to Santiago.
+
+These planes are waiting for takeoff on runway East :
+Flight HawaiianAirlines35 to San Francisco.
+Flight United3993 to Nashville.
+Flight American2794 to Charlotte.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+Flight AeroMexico3732 to Detroit.
+Flight AirFrance5953 to Columbus.
+
+
+Make you menu selection now: 3
+Enter flight number: Delta2
+Flight Delta2 is now waiting for takeoff on runway East.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight AirCanada4845 to Cincinnati.
+Flight JetBlue706 to Miami.
+Flight United1814 to Montreal.
+
+These planes are waiting for takeoff on runway South :
+Flight Frontier1260 to Santiago.
+
+These planes are waiting for takeoff on runway East :
+Flight HawaiianAirlines35 to San Francisco.
+Flight United3993 to Nashville.
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+These planes are waiting for takeoff on runway West :
+Flight Southwest102 to Denver.
+Flight AeroMexico3732 to Detroit.
+Flight AirFrance5953 to Columbus.
+
+
+Make you menu selection now: 2
+Is flight Southwest102 cleared for takeoff? (Y/N): N
+Flight Southwest102 is now waiting to be allowed to re-enter a runway.
+
+Make you menu selection now: 2
+Is flight AirCanada4845 cleared for takeoff? (Y/N): N
+Flight AirCanada4845 is now waiting to be allowed to re-enter a runway.
+
+Make you menu selection now: 2
+Is flight Frontier1260 cleared for takeoff? (Y/N): Y
+Flight Frontier1260 has taken off from runway South.
+
+Make you menu selection now: 2
+Is flight HawaiianAirlines35 cleared for takeoff? (Y/N): N
+Flight HawaiianAirlines35 is now waiting to be allowed to re-enter a runway.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight JetBlue706 to Miami.
+Flight United1814 to Montreal.
+
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight United3993 to Nashville.
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+These planes are waiting for takeoff on runway West :
+Flight AeroMexico3732 to Detroit.
+Flight AirFrance5953 to Columbus.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight AirCanada4845 to Cincinnati.
+Flight HawaiianAirlines35 to San Francisco.
+
+
+Make you menu selection now: 2
+Is flight AeroMexico3732 cleared for takeoff? (Y/N): N
+Flight AeroMexico3732 is now waiting to be allowed to re-enter a runway.
+
+Make you menu selection now: 2
+Is flight JetBlue706 cleared for takeoff? (Y/N): Y
+Flight JetBlue706 has taken off from runway North.
+
+Make you menu selection now: 2
+Is flight United3993 cleared for takeoff? (Y/N): Y
+Flight United3993 has taken off from runway East.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+These planes are waiting for takeoff on runway West :
+Flight AirFrance5953 to Columbus.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight AirCanada4845 to Cincinnati.
+Flight HawaiianAirlines35 to San Francisco.
+Flight AeroMexico3732 to Detroit.
+
+
+Make you menu selection now: 8
+5 planes have taken off from the airport.
+
+Make you menu selection now: 5
+Enter runway: NorthWest
+No such runway!
+Enter runway: West
+Enter new runway for plane AirFrance5953: North
+Flight AirFrance5953 is now waiting for takeoff on runway North.
+Enter new runway for plane Southwest102: South
+Flight Southwest102 is now waiting for takeoff on runway South.
+Enter new runway for plane AeroMexico3732: South
+Flight AeroMexico3732 is now waiting for takeoff on runway South.
+Runway West has been closed.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight AirCanada4845 to Cincinnati.
+Flight HawaiianAirlines35 to San Francisco.
+Flight AeroMexico3732 to Detroit.
+
+
+Make you menu selection now: 3
+Enter flight number: AirCanada4888
+Flight AirCanada4888 is not waiting for clearance.
+Enter flight number: AirCanada4845
+Flight AirCanada4845 is now waiting for takeoff on runway North.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+Flight AirCanada4845 to Cincinnati.
+
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight HawaiianAirlines35 to San Francisco.
+Flight AeroMexico3732 to Detroit.
+
+
+Make you menu selection now: 4
+Enter the name of the new runway : NorthEast
+Runway NorthEast has opened.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+Flight AirCanada4845 to Cincinnati.
+
+No planes are waiting to takeoff on runway South!
+These planes are waiting for takeoff on runway East :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+No planes are waiting to takeoff on runway NorthEast!
+
+Make you menu selection now: 3
+Enter flight number: AeroMexico3732
+Flight AeroMexico3732 is now waiting for takeoff on runway South.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+Flight AirCanada4845 to Cincinnati.
+
+These planes are waiting for takeoff on runway South :
+Flight AeroMexico3732 to Detroit.
+
+These planes are waiting for takeoff on runway East :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+No planes are waiting to takeoff on runway NorthEast!
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight HawaiianAirlines35 to San Francisco.
+
+
+Make you menu selection now: 5
+Enter runway: West
+No such runway!
+Enter runway: East
+Enter new runway for plane American2794: NorthEast
+Flight American2794 is now waiting for takeoff on runway NorthEast.
+Enter new runway for plane Delta2: NorthEast
+Flight Delta2 is now waiting for takeoff on runway NorthEast.
+Enter new runway for plane HawaiianAirlines35: North
+Flight HawaiianAirlines35 is now waiting for takeoff on runway North.
+Runway East has been closed.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+Flight AirCanada4845 to Cincinnati.
+
+These planes are waiting for takeoff on runway South :
+Flight AeroMexico3732 to Detroit.
+
+These planes are waiting for takeoff on runway NorthEast :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+
+Make you menu selection now: 7
+These planes are waiting to be cleared to re-enter a runway:
+Flight Southwest102 to Denver.
+Flight HawaiianAirlines35 to San Francisco.
+
+
+Make you menu selection now: 3
+Enter flight number: Southwest102
+Flight Southwest102 is now waiting for takeoff on runway South.
+
+Make you menu selection now: 3
+Enter flight number: HawaiianAirlines35
+Flight HawaiianAirlines35 is now waiting for takeoff on runway North.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight United1814 to Montreal.
+Flight AirFrance5953 to Columbus.
+Flight AirCanada4845 to Cincinnati.
+Flight HawaiianAirlines35 to San Francisco.
+
+These planes are waiting for takeoff on runway South :
+Flight AeroMexico3732 to Detroit.
+Flight Southwest102 to Denver.
+
+These planes are waiting for takeoff on runway NorthEast :
+Flight American2794 to Charlotte.
+Flight Delta2 to London.
+
+
+Make you menu selection now: 8
+5 planes have taken off from the airport.
+
+Make you menu selection now: 7
+There are no planes waiting to be cleared to re-enter a runway!
+
+Make you menu selection now: 2
+Is flight United1814 cleared for takeoff? (Y/N): Y
+Flight United1814 has taken off from runway North.
+
+Make you menu selection now: 2
+Is flight AeroMexico3732 cleared for takeoff? (Y/N): Y
+Flight AeroMexico3732 has taken off from runway South.
+
+Make you menu selection now: 2
+Is flight American2794 cleared for takeoff? (Y/N): Y
+Flight American2794 has taken off from runway NorthEast.
+
+Make you menu selection now: 2
+Is flight AirFrance5953 cleared for takeoff? (Y/N): Y
+Flight AirFrance5953 has taken off from runway North.
+
+Make you menu selection now: 2
+Is flight Southwest102 cleared for takeoff? (Y/N): Y
+Flight Southwest102 has taken off from runway South.
+
+Make you menu selection now: 2
+Is flight Delta2 cleared for takeoff? (Y/N): Y
+Flight Delta2 has taken off from runway NorthEast.
+
+Make you menu selection now: 6
+These planes are waiting for takeoff on runway North :
+Flight AirCanada4845 to Cincinnati.
+Flight HawaiianAirlines35 to San Francisco.
+
+No planes are waiting to takeoff on runway South!
+No planes are waiting to takeoff on runway NorthEast!
+
+Make you menu selection now: 8
+11 planes have taken off from the airport.
+
+Make you menu selection now: 2
+Is flight AirCanada4845 cleared for takeoff? (Y/N): Y
+Flight AirCanada4845 has taken off from runway North.
+
+Make you menu selection now: 2
+Is flight HawaiianAirlines35 cleared for takeoff? (Y/N): Y
+Flight HawaiianAirlines35 has taken off from runway North.
+
+Make you menu selection now: 6
+No planes are waiting to takeoff on runway North!
+No planes are waiting to takeoff on runway South!
+No planes are waiting to takeoff on runway NorthEast!
+
+Make you menu selection now: 8
+13 planes have taken off from the airport.
+
+Make you menu selection now: 0
+Leaving airport.

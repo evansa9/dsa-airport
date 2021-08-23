@@ -1,0 +1,76 @@
+ADTs:
+  List of Runways:
+    Used to store all of the Airports Runways. A list allowed for direct index 
+    access, which is required for takeoff from the correct runway. We used the 
+    ListSLS implementation, as it eliminates the preallocation of memory found
+    in an array-based implementation.
+  List of Planes:
+    Used to hold Planes that were denied takeoff clearance. A list allowed for 
+    direct index access, which was important in order to allow any of the 
+    planes to re-enter their respective Runway. We used the ListSLS 
+    implementation for much of the same reasons as for the list of Runways.
+  Queue of Planes:
+    Used to represent the planes that are waiting to takeoff on a given Runway.
+    A queue was used as we only needed to add planes to the back of the ADT, 
+    and remove from the front. We used the QueueSLS implementation as it 
+    eliminated the pre-allocation of memory, as well as not providing access
+    to more information than what was needed.
+
+Menu Option Data Flow:
+  0. End the program
+    Send a message that the program is ending then stop the program.
+  1. Plane enter the system
+    Ask for a flight number, destination, and runway to take off from. 
+    The flight number must be unique and the runway must exist.
+      If either condition is not met, ask for a new input value.
+    The plane is added to the back of the runway queue that is specified.
+  2. Plane takes off.
+    If there are no planes on any runway, print a message saying so.
+    If the selected runway is empty, advance to the next runway in the list.
+    The first plane in the selected runway in the list is selected for takeoff
+    clearance. The user enters Y/N if the plane is cleared for takeoff.
+      If Y, the plane takes off and is removed from the runway queue.
+      If N, the plane is added to the list of unassigned planes.
+    The selected runway is advanced to the next runway in the list.
+  3. Plane is allowed to re-enter a runway.
+    Ensure the List of Planes is not empty, then get the Plane that is re-entering a Runway from the user.
+    Remove that Plane from the list of Planes, and enqueue it in the Queue of Planes for its respective Runway. 
+  4. Runway opens.
+    Ask the user for the name of the Runway, and check if a Runway with that name is in the List of Runways.
+      If it does exist, ask for a different name, otherwise continue.
+    Create a new Runway with the given name, and add it to the List of Runways.
+  5. Runway closes.
+    Get the name of the Runway from the user, and check if it exists.
+      If it does, continue, otherwise ask again.
+    For every plane in the Runway’s Queue, ask the user for an alternate Runway for it to take off from.
+      If it exists, continue, otherwise ask again.
+      Add the Plane into the alternate Runway’s queue, and repeat for each plane.
+    For every plane in the list of planes waiting to re-enter a Runway, check if they will need a new Runway.
+      If they do, ask for an alternate Runway until a valid one is given.
+    Remove the Runway from the List of Runways. 
+  6. Display info about planes waiting to take off.
+    Display the name of the runway.
+    Display the queue of planes waiting at each runway, including flight number and destination.
+    If no planes are waiting, say that there are none at the specific runway
+  7. Display info about planes waiting to be allowed to re-enter a runway.
+    Check if the List of Planes waiting is empty, if it is, print out a message explaining that.
+    Otherwise, call the toString method on the List of Planes to print out all information about the Planes. 
+  8. Display number of planes who have take off.
+    Print a message with the number of planes that have taken off, using the int storing this value in the Driver class. 
+
+Classes:
+  Driver:
+    Main class which manages the airport, as well as handles all of the menu functions.
+  Runway:
+    Models a Runway, with a name, as well as a queue of planes waiting to take off.
+    Allows the planes to enter and take off from the Runway.
+  Planes:
+    Models a Plane, with a flight number, a destination, as well as a desired Runway to take off on.
+    Allows information about the Plane to be modified and retrieved. 
+
+Most Frequent Operation:
+  The most frequent operation is plane object manipulation with a queue. Very often planes are added
+  to a runway’s queue. This happens when they are created, recleared for take-off, or reassigned to a
+  new runway after it closes. Often planes are removed from a queue, either when given permission to 
+  take off or denied permission and added to the unassigned plane list. The SLS implementation used in
+  our design helps with this as it is very easy to add and remove from an SLS based queue.
